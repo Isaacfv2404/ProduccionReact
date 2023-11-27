@@ -1,3 +1,4 @@
+
 import deleteAlertLogic from '../alerts/deleteAlertLogic';
 
 const DeleteVehicle = (id, updateVehicleList) => {
