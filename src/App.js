@@ -5,7 +5,6 @@ import { useAuth } from './security/AuthContext';
 import PrivateRoutes from './PrivateRoutes';
 import './App.css';
 import LoginForm from './log/login';
-
 function App() {
   const { isAuthenticated } = useAuth();
 

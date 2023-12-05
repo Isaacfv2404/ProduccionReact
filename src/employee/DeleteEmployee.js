@@ -1,4 +1,3 @@
-
 import  deleteAlertLogic  from '../alerts/deleteAlertLogic';
 
 const DeleteEmployee = (id, updateEmployeeList) => {

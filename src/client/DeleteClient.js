@@ -1,4 +1,3 @@
-
 import deleteAlertLogic from '../alerts/deleteAlertLogic';
 
 const DeleteClient = (id, updateClientList) => {

@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import './view.css';
 
+
 export default function ShowSale() {
   const [sale, setSale] = useState({});
   const [products, setProducts] = useState([]);
@@ -89,7 +90,6 @@ export default function ShowSale() {
         </div>
         <a href="Sales" className="submit-button">Salir</a>
       </div>
-
     </div>
   );
 }
